@@ -1,0 +1,39 @@
+.bbutton{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #9FADBC;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.bbutton:hover{
+    background-color: #282F27;
+}
+
+.taskName input{
+    margin-top: 5px;
+    background-color: #282E33;
+    border: none;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+
+
+.taskName button p{
+padding-bottom: 8px;
+
+}
+
+.taskName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

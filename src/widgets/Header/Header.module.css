@@ -1,0 +1,149 @@
+.header {
+    background: rgb(0,0,86);
+    background: linear-gradient(90deg, rgba(0,0,86,1) 47%, rgba(25,51,139,1) 100%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 0 0 0 0;
+    border-bottom: 1px solid #31383D;
+}
+
+
+
+.header nav {
+    display: flex;
+    justify-content: center;
+   
+    padding: 10px;
+}
+
+.header nav span{
+  margin-left: 10px;
+}
+
+.header  a {
+    color: #9EACBA;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header a:hover, .headerRight button:hover{
+   background-color: #333C43;
+   text-decoration: none;
+}
+
+.header a:link {
+  text-decoration: none!important;
+}
+
+
+
+
+.searchContainer {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.searchContainer input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: #282E33;
+    color: #9EACBA;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    outline: none;
+    
+}
+.searchContainer button {
+    background-color: #282E33;
+    color: #9EACBA;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+
+
+.headerRight{
+    display: flex;
+}
+
+.headerRight button{
+    margin: 5px;
+    display: flex;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    color: #9EACBA;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.userContainer {
+    position: relative;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .userImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+  }
+
+  .userMenu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #9EACBA;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .userMenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .userMenu ul li {
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .userMenu a {
+    display: block;
+    padding: 7px 14px;
+    min-width: 150px;
+    color: #000;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  .userMenu a:hover {
+    background-color: #94a3b2;
+  }
+
+  .headerLogo{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:20px ;
+ }

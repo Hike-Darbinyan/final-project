@@ -1,0 +1,75 @@
+.listGroup {
+  display: flex;
+  background: rgb(19,19,194);
+  background: linear-gradient(180deg, rgba(19,19,194,1) 62%, rgba(20,48,144,1) 91%); 
+  width: 83vw;
+  height: 100vh;
+}
+
+.addList {
+  width: 300px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 15px;
+  text-align: left;
+  padding-left: 10px;
+  border: none;
+  background-color: #a7b1bb;
+  color: aliceblue;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3) 
+}
+
+
+.addList:hover {
+  background: rgba(255, 255, 255, 0.1)
+}
+
+.appContainer {
+  display: flex;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+}
+
+.addNewList{
+  padding: 0;
+  margin: 0;
+  margin: 0px 17px;
+  margin-top: 20px;
+  background-color: #101204;
+  width: 350px;
+  border-radius: 20px;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+}
+.addNewList input{
+  background-color: #323231;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  display: block;
+  margin: 10px 10px 0px 10px;
+}
+.addNewList button{
+  background-color: #5e96e5;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  min-width: 115px;
+  margin: 10px;
+}
+.addNewList button:hover{
+  background-color: #64a0f4;
+
+}

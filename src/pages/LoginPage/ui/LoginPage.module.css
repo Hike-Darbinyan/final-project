@@ -1,0 +1,93 @@
+.loginDiv{
+  align-self: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(29,33,37);
+  width: 100vw;
+  height: 100vh;
+  background: rgba(250,251,253,255);
+}
+
+.loginDiv h1{
+  font-size: 50px;
+}
+
+
+.loginContainer {
+    width: 380px;
+    height: 600px;
+    padding: 32px 16px;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,255);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+  }
+
+  .loginToContinue {
+    margin: 50px 130px 10px 130px;
+    width: 170px;
+    font-size: 17px;
+    color: rgba(37,37,83,255);
+  }
+  
+  .loginContainer h2 {
+    text-align: center;
+  }
+  
+  .loginContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginContainer label {
+    margin-bottom: 5px;
+  }
+  
+  .loginContainer input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login {
+    padding: 10px;
+    background-color: var(--ds-background-brand-bold, #0052CC);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login:hover {
+    background-color: #0056b3;
+  }
+
+  .authoriseDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.haveAnAcc a{
+  margin-left: 8px;
+  color: #1877F2;
+  text-decoration: none;
+}
+
+.haveAnAcc{
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+.continuewith {
+  margin: 20px 131px 10px 139px;
+  width: 170px;
+  font-size: 15px;
+}

@@ -1,0 +1,34 @@
+.replyContainer {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .replyInfo {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .replyInfo p {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .replyInfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .replyInfo span {
+   color: #aaaaaa;
+   font-size: 10px;
+  }
+
+  .replyText{
+    margin-top: 10px;
+    color: rgb(217, 224, 231);
+  }

@@ -1,0 +1,46 @@
+.commentContainer {
+    border-radius: 8px;
+  }
+  
+  .userInfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .userInfo {
+    display: flex;
+  }
+  
+  .userInfo p {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .userInfo span {
+    color: #aaaaaa;
+    font-size: 10px;
+  }
+  
+  .commentText {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .addReply {
+    cursor: pointer;
+  }
+
+  .parentComment{
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .commentText{
+    margin-top: 10px;
+    color: rgb(217, 224, 231);
+    width: 800px;
+  }
